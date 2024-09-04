@@ -6,8 +6,8 @@ metadata:
 spec:
   targets:
     - ./apis/inventory-api.yaml
-    - ./services/inventory-service.yaml
-    - ./services/inventory-library.yaml
+    - ./components/inventory-service.yaml
+    - ./components/inventory-library.yaml
     - ./resources/inventory-db.yaml
     - ./users/inventory-users.yaml
     - ./thoughtworks/org.yaml
