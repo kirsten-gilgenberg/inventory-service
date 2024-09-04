@@ -10,4 +10,4 @@ spec:
     - ./components/inventory-library.yaml
     - ./resources/inventory-db.yaml
     - ./users/inventory-users.yaml
-    - ./thoughtworks/org.yaml
+    - ./users/thoughtworks/org.yaml
