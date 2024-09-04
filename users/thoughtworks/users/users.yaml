@@ -15,9 +15,9 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: kirsten.gilgenberg
+spec:
   profile:
     displayName: Kirsten Gilgenberg
     email: kirsten.gilgenberg@thoughtworks.com
-    picture: 
 spec:
-  memberOf: [thoughtworks, awesome-project]
+  memberOf: [thoughtworks, awesome-project, kirsten-group]
