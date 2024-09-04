@@ -10,5 +10,4 @@ spec:
   system: inventory-system
   producesApis:
     - counter-api
-  subcomponentOf:
-    - inventory-service
+  subcomponentOf: inventory-service

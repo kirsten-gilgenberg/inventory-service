@@ -12,5 +12,4 @@ spec:
     - inventory-db
   consumesApis:
     - counter-api
-  subcomponentOf:
-    - inventory-service
+  subcomponentOf: inventory-service
