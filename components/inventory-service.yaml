@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: inventory-service
+  description: Inventory Service
+spec:
+  type: service
+  lifecycle: production
+  owner: kirsten-group
+  system: inventory-system
+  producesApis:
+    - counter-api
+  subcomponentOf:
+    - inventory-service

@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: inventory-library
+  description: Inventory Library
+spec:
+  type: library
+  lifecycle: production
+  owner: kirsten-group
+  system: inventory-system
+  dependsOn:
+    - inventory-db
+  consumesApis:
+    - counter-api
+  subcomponentOf:
+    - inventory-service
