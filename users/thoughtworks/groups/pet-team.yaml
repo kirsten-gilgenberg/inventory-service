@@ -5,4 +5,6 @@ metadata:
   description: Awesome Platform Engineering Team
 spec:
   type: team
+  parent: awesome-project
   children: []
+  members: [kirsten-gilgenberg]

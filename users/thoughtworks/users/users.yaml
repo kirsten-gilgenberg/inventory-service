@@ -19,5 +19,5 @@ spec:
   profile:
     displayName: Kirsten Gilgenberg
     email: kirsten.gilgenberg@thoughtworks.com
-  memberOf: [thoughtworks, awesome-project, kirsten-group]
+  memberOf: [thoughtworks, awesome-project, kirsten-group, awesome-pet]
   
