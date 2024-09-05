@@ -11,4 +11,3 @@ spec:
     - ./resources/inventory-db.yaml
     - ./users/inventory-users.yaml
     - ./users/thoughtworks/org.yaml
-    - ./users/users/users.yaml
